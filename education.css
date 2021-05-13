@@ -1,0 +1,90 @@
+img{
+    position: relative;
+    height: 100%;
+}
+body{
+    background-color: wheat;
+}
+
+.heading h1{
+    position: absolute;
+    color:#22A39F;
+    text-transform: uppercase;
+    font-size: 3rem;
+    top:90px;
+    right:50%;
+}
+.heading h2{
+    width: 32%;
+    margin: 50px auto 50px auto;
+    position: absolute;
+    top: 150px;
+    left:25%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #434242;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left:20%;
+}
+table{
+    
+    table-layout: fixed;
+    width: 50%;
+    
+   background-color: wheat;
+
+}
+table p{
+    text-align:left;
+    
+}
+hr{
+    
+    width:50%;
+    position: absolute;
+    top:40%;
+    left: 15%;
+}
+a:hover{
+    background-color:#14b3ad;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: wheat;
+    height: 50px;
+    
+}
+.logo{
+    height:45px;
+}  
+  
+
+
+
+  
+ul{
+  list-style: none;
+  display:flex;
+}
+ul li a{
+  height:50px;
+  line-height: 43px;
+  margin:3px;
+  padding:15px 22px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500px;
+  color: grey;
+  text-decoration: none;
+}

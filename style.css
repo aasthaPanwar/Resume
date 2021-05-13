@@ -1,0 +1,219 @@
+.top-container{
+    background-color:#aae4d9;
+    position: relative;
+    padding-top:200px;
+    
+
+}
+body{
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+     font-size: 100%;
+    
+}
+h1{
+    margin-top: 0px;
+    margin-bottom:0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: black;
+    
+}
+.middle-container{
+    background-color: #F3EFE0;
+    
+    
+}
+.bottom-container{
+     background-color: #434242;
+     margin-top: 0px;   
+     
+        width: 100%;
+        padding:50px 0 20px;
+        
+}
+.bottom-container p,.bottom-container a,.bottom-container h2{
+    color: #727878;
+    font-size: 1.2rem;
+}
+.bottom-container h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.bottom-container hr{
+    
+    margin:40px auto;
+    border:solid #727878;
+        width: 50%;
+        border-bottom:none;
+        font-weight: 100;
+}
+.cloud{
+    position: absolute;
+    left: 300px;
+    height: 60px;
+    width:200px;
+
+}
+.avtar{
+    position:absolute;
+    left: 200px;
+    top: 50px;  
+    height:30%;
+    width:15%;
+    border-radius: 100%;
+}
+.uppercloud{
+    position:absolute;
+    right: 300px;
+    top: 50px;
+    height: 60px;
+    width:200px;
+
+}
+
+p{
+    margin-top: 0px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    line-height: 2;
+}
+.intro{
+    margin:auto;
+    width:50%;
+}
+h3{
+    color: #11999E;
+}
+
+.Me{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    margin-top:60px;
+}
+
+hr{
+    border: dotted #EAF6F6 30px;
+   border-bottom: none;
+   margin:100px auto 100px auto;
+  
+    width: 4%;
+    
+    
+}
+a:hover{
+    background-color:#14b3ad;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: wheat;
+    height: 50px;
+    
+}
+  .logo{
+      height:45px;
+  }  
+    
+  
+
+
+    
+ul{
+    list-style: none;
+    display:flex;
+}
+ul li a{
+    height:50px;
+    line-height: 43px;
+    margin:3px;
+    padding:15px 22px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500px;
+    color: grey;
+    text-decoration: none;
+}
+.skill-row{
+    width:50%;
+    margin:70px auto 70px auto;
+    text-align: left;
+}
+.skill-row h3{
+    text-align: center;
+}
+.code-img{
+    float:left;
+    margin-right: 60px;
+}
+
+.travel-img{
+    float: right;
+    margin-left:30px;
+    margin-top: 0px;
+}
+
+
+h2{
+    padding-bottom:30px;
+    font-family: 'montserrat',sans-serif;
+    font-weight:bolder;
+    font-size:2.5rem;
+    color: #66BFBF;
+}
+.touch{
+    color: #434242;
+    font-size:2.5rem;
+    margin:0px;
+    font-family: 'montserrat',sans-serif;
+    font-weight:bolder;
+    
+}
+.contact-message{
+    width: 60%;
+    margin: 20px auto 30px auto;
+}
+
+
+
+.btn{
+    height: 44px;
+    width:200px;
+    color:white;
+    border-radius:20px;
+    padding:10px;
+    margin-top: 10px;
+    background-color:#66BFBF;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.contact-info{
+   background-color: #66BFBF;
+   height:40px;
+   padding: 20px 0px 20px;
+
+}
+.contact-info a{
+    color: #119996;
+    margin: 100px;
+    text-decoration: none;
+    padding:15px 22px;
+    
+}
+.contact-info p{
+    font-size:1rem;
+    margin-top:10px;
+    
+}
